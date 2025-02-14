@@ -1,7 +1,7 @@
 from study_config_key_extractor import StudyConfigKeyExtractor
 from study_config_key_modifier import StudyConfigKeyModifier
-
 import json
+import time
 
 study_schema = {
     "type": "object",
@@ -41,6 +41,8 @@ study_config = {
 }
 
 def main():
+    start_time = time.time()
+
     user_prompt = "If I take two weeks off from my studies, how will that affect my performance in my exams?"
 
     # Extractor: Identify relevant keys
@@ -63,6 +65,12 @@ def main():
         print(json.dumps(modified_config, indent=2))
     else:
         print("❌Modification failed. No valid updates generated.")
+
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    minutes, seconds = divmod(int(elapsed_time), 60)
+    milliseconds = int((elapsed_time - int(elapsed_time)) * 1000)
+    print(f"⏱ Total execution time: {minutes}m {seconds}s {milliseconds}ms")
 
 if __name__ == "__main__":
     main()
