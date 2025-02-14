@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debug files
+logs/
+*.log
+*.out
+*.err
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python cache
+*.pyc
+*.pyo
+
+# Dependencies
+*.egg-info/
+dist/
+build/
+
+# Guardrails logs (if applicable)
+guardrails.log

@@ -1,0 +1,22 @@
+{
+  "university_name": "Oxford University",
+  "study_program": "Computer Science",
+  "study_period_start": "2025-09-01",
+  "study_period_end": "2028-06-30",
+  "hours_per_week": 40,
+  "lectures_per_week": 10,
+  "self_study_hours": 20,
+  "holidays_per_year": 6,
+  "max_allowed_absences": 15,
+  "grading_scale": "A-F",
+  "assignment_weight": 0.4,
+  "exam_weight": 0.6,
+  "required_gpa": 3.5,
+  "min_attendance_percentage": 75,
+  "tuition_fees": 12000,
+  "scholarship_eligibility": true,
+  "online_course_availability": true,
+  "weekly_project_work": 5,
+  "thesis_required": true,
+  "internship_mandatory": false
+}

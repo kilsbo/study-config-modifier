@@ -1,0 +1,9 @@
+openai
+
+guardrails-ai
+
+python-dotenv
+
+lxml
+
+jsonschema
